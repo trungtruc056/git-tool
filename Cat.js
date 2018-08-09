@@ -1,9 +1,9 @@
 function Cat() {
-	this.stomatch = [];
+	this.stomach = [];
 }
 
 Cat.prototype.eat = function(mouse) {
-	this.stomatch.push(mouse);
+	this.stomach.push(mouse);
 }
 
 Module export = Cat;
